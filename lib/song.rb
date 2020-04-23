@@ -17,7 +17,7 @@ class Song
     song_string = song.split(" - ")[1]
     song_obj = Song.new(song_string)
     song_artist_string = song.split(" - ")[0] #tricky #interview #use descriptive names 
-    artist = song_artist 
+    #artist = song_artist 
   end 
   
   
