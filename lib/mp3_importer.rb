@@ -17,6 +17,7 @@ end
   
  def import 
        files.each do |file|
+         new_by_filename
              #binding.pry
       #song.new 
         end 
