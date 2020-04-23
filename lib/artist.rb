@@ -22,12 +22,12 @@ class Artist
       end 
   end 
   
-  def self.find_or_create_by_name(arist_name)
-    artist = @@all.find {|a| a.name  == arist_name}#we stored the instance in the variabe 
-    if artist 
-      return artist
+  def self.find_or_create_by_name(arist)
+    art = @@all.find {|a| a.name  == arist}#we stored the instance in the variabe 
+    if art 
+      return art
     else 
-      return self.new(artis_name)
+      return self.new(arist)
   end 
 end 
   
