@@ -16,7 +16,7 @@ class Song
     #binding.pry
     song_string = song.split(" - ")[1]
     song_artist_string = song.split(" - ")[0] #tricky #interview #use descriptive names 
-    song_artist_string = Artist.name 
+    song_artist_string = Artist.new()
     #binding.pry
     song_obj = Song.new(song_string, song_artist_string)
    song_obj #we want the return of method to be new song obj we created
