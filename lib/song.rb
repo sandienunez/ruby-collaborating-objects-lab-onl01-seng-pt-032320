@@ -22,5 +22,8 @@ class Song
    song_obj #we want the return of method to be new song obj we created
   end 
   
+  def artist_name=()
+    
+  end 
   
 end 
