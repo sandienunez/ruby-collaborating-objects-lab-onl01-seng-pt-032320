@@ -18,7 +18,7 @@ end
  def import 
        files.each do |file|
              #binding.pry
-      song.new 
+      #song.new 
         end 
  end 
   
