@@ -13,7 +13,7 @@ class Song
   end 
   
   def Song.new_by_filename(song)
-    binding.pry
+    #binding.pry
     song_string = song.split(" - ")[1]
     song_artist_string = song.split(" - ")[0] #tricky #interview #use descriptive names 
     song_obj = Song.new(song_string, song_artist_string)
